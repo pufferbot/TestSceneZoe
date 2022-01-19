@@ -7,10 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CloudsShader
+  m_Name: CloudsShaderLOD
   m_Shader: {fileID: -6465566751694194690, guid: af3bd57438e070b41ace760effe942fe, type: 3}
-  m_ShaderKeywords: _ALPHATEST_ON _ALPHATOMASK_ON _DISABLE_DECALS _DISABLE_SSR_TRANSPARENT
-    _DOUBLESIDED_ON _SURFACE_TYPE_TRANSPARENT
+  m_ShaderKeywords: _DISABLE_DECALS _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _SURFACE_TYPE_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
@@ -40,17 +39,17 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_09352c091808403486098969633cb1a7: 0.2
+    - Vector1_09352c091808403486098969633cb1a7: 0.01
     - Vector1_2e0215e574f54d8d87f085b44c29cd72: 720
-    - Vector1_4030fa300f404fa8ad5c8a570fb0117a: 0.83
-    - Vector1_5143f864de004e80be9c6a6a9f467b69: 0.226
-    - Vector1_5c6c319710b341029ee7fdc5111be8a1: 1.29
-    - Vector1_5d39304674a14d3a94749c6254a64019: 480
+    - Vector1_4030fa300f404fa8ad5c8a570fb0117a: 0.63
+    - Vector1_5143f864de004e80be9c6a6a9f467b69: 0
+    - Vector1_5c6c319710b341029ee7fdc5111be8a1: 0.96
+    - Vector1_5d39304674a14d3a94749c6254a64019: 60
     - _AddPrecomputedVelocity: 0
-    - _AlphaCutoffEnable: 1
+    - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 10
     - _AlphaSrcBlend: 1
-    - _AlphaToMask: 1
+    - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 1
     - _BlendMode: 0
     - _CullMode: 0
@@ -91,12 +90,12 @@ Material:
     - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
     - _ZTestDepthEqualForOpaque: 4
-    - _ZTestGBuffer: 3
+    - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
-    - Color_6467828c6a5e464a86cec78259b7d957: {r: 3.0812147, g: 3.585741, b: 4.594794, a: 1}
-    - Vector2_11fe706e6d59476b9c5cb7cd704e08da: {r: 0.0015, g: 0.0025, b: 0, a: 0}
+    - Color_6467828c6a5e464a86cec78259b7d957: {r: 4.1431355, g: 4.8175993, b: 6.13441, a: 1}
+    - Vector2_11fe706e6d59476b9c5cb7cd704e08da: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_d429a250bd0448c190bfc0067e37b0d0: {r: 0.001, g: 0.002, b: 0, a: 0}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
